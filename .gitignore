@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+# Excluir configuraciones de Visual Studio
+.vs/
+# Excluir carpetas de compilación
+bin/
+obj/
+
+# Excluir archivos de soporte de bases de datos de Visual Studio
+*.dbmdl
+
+# Excluir archivos de seguimiento de Visual Studio
+*.jfm
+
+# Excluir archivos de logs
+*.log
+
+*.user
