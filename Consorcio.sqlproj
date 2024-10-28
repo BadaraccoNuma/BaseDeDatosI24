@@ -61,6 +61,9 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="SchemaCompare" />
+    <Folder Include="PostDeployment" />
+    <Folder Include="PublishProfile\" />
+    <Folder Include="PostDeployment\Administrador" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\provincia.sql" />
@@ -72,8 +75,13 @@
     <Build Include="dbo\Tables\consorcio.sql" />
     <Build Include="dbo\Tables\gasto.sql" />
     <Build Include="dbo\Tables\inmueble.sql" />
+    <None Include="PostDeployment\Administrador\administrador.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SchemaCompare\RepoToLocal.scmp" />
+    <None Include="PublishProfile\Consorcio.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="PostDeployment\Script.PostDeployment.sql" />
   </ItemGroup>
 </Project>
